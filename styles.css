@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://wallpaperyourworld.com/cdn/shop/products/RMK12550M_1200x.jpg?v=1668118159") no-repeat center center;
+    background-size: cover;
+    padding: 0 20px;
+}
+
+h1, span {
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(216, 146, 15);
+}
+
+#title {
+    animation: zoomInDown;
+    animation-duration: 1s;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fff;
+    background-color: #f0eae7;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    border: 2px solid #3f3f3f;
+    border-bottom: 0px;
+    padding: 25px;
+}
+
+#content {
+    box-sizing: content-box;
+}
+
+#questions, #calculating, #character-card {
+    width: 100%;
+    max-width: 450px;
+    margin:0 auto;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0eae7;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    padding: 25px;
+    animation: bounceInUp;
+    animation-duration: 1s;
+    border: 2px solid #3f3f3f;
+}
+
+#character-card {
+    height: auto;
+    animation: 4s infinite float ease;
+}
+
+@keyframes float {
+  0% {margin-top: 0;}
+  50% {margin-top: -25px;}
+  100% {margin-top: 0;}
+}
+
+.question {
+    display: none;
+    width: 350px;
+    max-width: 350px;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.answers {
+    background: #fff;
+    padding: 20px 5px;
+    margin: 0 auto;
+    border: 1px solid #3f3f3f;
+}
+
+li {
+    list-style: none;
+    width: 225px;
+    margin: 0 20px;
+}
+
+button {
+    width: auto;
+    height: 35px;
+    padding: 5px 15px 10px 15px;
+    border-radius: 25px;
+    border: 0px;
+    background: rgb(192, 76, 22);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#calculating {
+    width: 350px;
+    height: 100px;
+    border: 2px solid #3d3d3d;
+    text-align: center;
+    display: none;
+}
+
+#calc-bar {
+    width: 0%;
+    height: 100%;
+    background: red;
+    animation: 3s infinite progressBar;
+}
+
+@keyframes progressBar {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+.character-title,
+.character-name {
+    margin-bottom: 0px;
+}
+
+.character-img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+
+#blurb {
+    background: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#refresh-btn {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.7);
+}
