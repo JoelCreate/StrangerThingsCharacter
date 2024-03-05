@@ -1,5 +1,3 @@
-# StrangerThingsCharacter
-
 # Stranger Things Character Quiz
 
 This project is a simple quiz designed to determine which Stranger Things character you are most like. The quiz is built using HTML, CSS, and JavaScript.
