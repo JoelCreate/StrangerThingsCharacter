@@ -20,7 +20,7 @@ h1, span {
     font-family: "DM Serif Display", serif;
     text-align: center;
     margin-bottom: 25px;
-    color: rgb(216, 146, 15);
+    color: rgb(128, 84, 3);
 }
 
 #title {
@@ -33,7 +33,7 @@ h1, span {
     background-color: #f0eae7;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto;
     border: 2px solid #3f3f3f;
     border-bottom: 0px;
@@ -46,7 +46,7 @@ h1, span {
 
 #questions, #calculating, #character-card {
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     margin:0 auto;
     display: flex;    
     align-items: center;
@@ -94,8 +94,8 @@ ul {
 
 li {
     list-style: none;
-    width: 225px;
-    margin: 0 20px;
+    width: 275px;
+    margin: 0 10px;
 }
 
 button {
@@ -107,7 +107,7 @@ button {
     background: rgb(192, 76, 22);
     color: #fff;
     font-weight: 700;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
@@ -151,10 +151,10 @@ button:hover {
 #blurb {
     background: #ffffff;
     padding: 10px;
-    margin: 10px auto;
+    margin: 25px auto 0px auto;
     text-align: center;
     font-weight: 500;
-    font-size: .9rem;
+    font-size: 1.15rem;
 }
 
 #refresh-btn {
