@@ -93,7 +93,7 @@
         blurb: "You're a lighthouse amidst the stormy seas of Hawkins! Your sharp wit and unwavering resolve guide others through the murky waters of mystery. Beneath your exterior of nonchalance lies a heart brimming with empathy and courage! Reminding us that even in the face of uncertainty, the bonds of friendship can conquer all hardships!."
     },
     {
-        name: "Barbara",
+        name: "Barbara R.I.P",
         image: "https://nypost.com/wp-content/uploads/sites/2/2018/09/barb.jpg?quality=75&strip=all",
         blurb: "You are a gentle soul who departed this world too soon, your kindness and loyalty continue to echo through the corridors of Hawkins. Though your light was extinguished prematurely, your memory serves as a reminder of the fragility of life and the enduring impact of compassion in the hearts of those you left behind."
     },
