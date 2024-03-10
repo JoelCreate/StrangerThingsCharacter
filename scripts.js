@@ -53,17 +53,16 @@ yesNoBtn.forEach((button) => {
 })
 
 function showCharacter() {
-  if (answers.length !== shuffledQuestions.length) {
-    // Ensure all questions are answered
-    console.error("All questions must be answered before revealing the character.")
-    return
-  }
+  // if (answers.length !== shuffledQuestions.length) {
+  //   // Ensure all questions are answered
+  //   console.error("All questions must be answered before revealing the character.")
+  //   return
+  // }
 
   const randomIndex = Math.floor(Math.random() * answers.length)
   const randomCharacter = answers[randomIndex]
 
-  const characterHTML = characters
-    .map((character) => {
+  const characterHTML = characters.map((character) => {
       if (randomCharacter === character.name) {
         return `
           <div id="character-card">
