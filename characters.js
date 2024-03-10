@@ -99,6 +99,7 @@
     },
     {
         name: "The Demogorgon",
+        personality: ["optimistic", "energectic", "leader", "serious", "attentive"],
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Gb3wdkwBJ_VdLEm_jDSOJ6cXmMT5NiPidNLSZ9ukxw&s",
         blurb:"You're a primal force unleashed from the depths of the Upside Down. Your monstrous form strikes fear into the hearts of all who dare to encounter you. With razor-sharp claws and a voracious hunger, you prowls the shadows, a relentless predator hunting its prey in the darkest recesses of Hawkins."
     }
